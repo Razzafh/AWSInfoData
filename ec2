@@ -1,0 +1,18 @@
+{
+"Resources" :{
+  "Type" : "AWS::EC2::Instance",
+  "Properties" : {
+       "AvailabilityZone" : "us-west-1a",
+       "ImageId" : String,
+       "SubnetId" : String,
+       "InstanceType" : "t2.micro",
+        "KeyName" : String,
+         "SecurityGroupIds" : [ String, ... ],
+          "Tags" : [ 
+            {
+              "key":"Name"
+              "value": "dev"
+            }],
+}
+}
+}
